@@ -16,6 +16,8 @@ public class   LinkedList
           next = null;
      }
     }
+
+    
     // method to insert the  a new node 
     public  static LinkedList insert (LinkedList list , int data)
     {
@@ -141,11 +143,7 @@ public class   LinkedList
     System.out.println(" enter the position for element deletition ");
     deletionByPosition(list,sc.nextInt());
     display(list);
-    System.out.println("length of list is >>"+ length(list));
-
-
-
-        
+    System.out.println("length of list is >>"+ length(list));   
     }
 
     
